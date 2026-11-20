@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+~$*
+# Enunciado de la asignatura: material de la universidad, no se redistribuye
+practica-2.pdf

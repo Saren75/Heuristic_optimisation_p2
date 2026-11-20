@@ -13,8 +13,8 @@ const FUENTE = "Calibri";
 const ANCHO_UTIL = 9026;   // A4 con margenes de 2,54 cm, en DXA
 const SALIDA = path.join(__dirname, "..", "550260-522170.docx");
 
-const SUBINDICES = { "₀": "0", "₁": "1", "₂": "2", "₋": "−", "₌": "=", "₍": "(", "₎": ")", "ₐ": "a", "ₖ": "k", "ᵢ": "i" };
-const SUPERINDICES = { "²": "2", "ᵏ": "k", "⁵": "5", "⁻": "−" };
+const SUBINDICES = { "₀": "0", "₁": "1", "₂": "2", "₋": "−", "₌": "=", "₍": "(", "₎": ")", "ₐ": "a", "ₖ": "k", "ᵢ": "i", "ⱼ": "j" };
+const SUPERINDICES = { "²": "2", "ᵏ": "k", "ᵈ": "d", "⁵": "5", "⁻": "−" };
 
 // ---------------------------------------------------------------- texto en linea
 function runs(texto, base = {}) {
